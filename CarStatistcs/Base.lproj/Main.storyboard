@@ -1,24 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Cr1-xS-buu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Audi" translatesAutoresizingMaskIntoConstraints="NO" id="gUJ-XC-iSN">
+                                <rect key="frame" x="16" y="67.000000000000014" width="343" height="244.33333333333337"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gUJ-XC-iSN" secondAttribute="height" multiplier="358:255" id="kOj-O1-fKF"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQp-JQ-4w0">
+                                <rect key="frame" x="16" y="331.33333333333326" width="343" height="426.66666666666674"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsl-gG-Xih">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="52.333333333333336"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
+                                        <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VaV-Mk-Wpy">
+                                        <rect key="frame" x="0.0" y="62.333333333333371" width="343" height="52.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
+                                        <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKL-eu-DeS">
+                                        <rect key="frame" x="0.0" y="124.66666666666667" width="343" height="52.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
+                                        <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsN-Cs-E09">
+                                        <rect key="frame" x="0.0" y="187.00000000000006" width="343" height="52.666666666666657"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
+                                        <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7x-gE-lvO">
+                                        <rect key="frame" x="0.0" y="249.66666666666671" width="343" height="52.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
+                                        <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3V-rK-IOR">
+                                        <rect key="frame" x="0.0" y="312.00000000000006" width="343" height="52.333333333333314"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
+                                        <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4Y-ig-lLi">
+                                        <rect key="frame" x="0.0" y="374.33333333333331" width="343" height="52.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Random Car">
+                                            <fontDescription key="titleFontDescription" name="Avenir-Black" family="Avenir" pointSize="24"/>
+                                            <color key="baseForegroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="randomCar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zcn-g5-QTH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jsN-Cs-E09" secondAttribute="trailing" id="Wex-hM-A8r"/>
+                                    <constraint firstItem="jsN-Cs-E09" firstAttribute="leading" secondItem="KQp-JQ-4w0" secondAttribute="leading" id="fNk-YQ-BAb"/>
+                                    <constraint firstItem="s7x-gE-lvO" firstAttribute="top" secondItem="jsN-Cs-E09" secondAttribute="bottom" constant="8" symbolic="YES" id="yAG-5x-TEe"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gUJ-XC-iSN" secondAttribute="trailing" constant="16" id="13U-Zo-jPt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KQp-JQ-4w0" secondAttribute="bottom" constant="20" id="6VO-I0-50d"/>
+                            <constraint firstItem="Cr1-xS-buu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6Wg-77-oUm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KQp-JQ-4w0" secondAttribute="trailing" constant="16" id="9rx-i5-HhH"/>
+                            <constraint firstItem="KQp-JQ-4w0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Hu9-Nc-A0X"/>
+                            <constraint firstAttribute="bottom" secondItem="Cr1-xS-buu" secondAttribute="bottom" id="WyM-Ik-GF4"/>
+                            <constraint firstItem="gUJ-XC-iSN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bQ1-WD-4Of"/>
+                            <constraint firstItem="Cr1-xS-buu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jSO-CQ-cuK"/>
+                            <constraint firstItem="Cr1-xS-buu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="q6B-hz-1tv"/>
+                            <constraint firstItem="KQp-JQ-4w0" firstAttribute="top" secondItem="gUJ-XC-iSN" secondAttribute="bottom" constant="20" id="wKN-FH-8AU"/>
+                            <constraint firstItem="gUJ-XC-iSN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="wyx-Dq-lS3"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="gUJ-XC-iSN" id="epb-oY-xOk"/>
+                        <outlet property="label1" destination="Wsl-gG-Xih" id="9wV-e2-jYe"/>
+                        <outlet property="label2" destination="VaV-Mk-Wpy" id="nGp-SV-PRS"/>
+                        <outlet property="label3" destination="sKL-eu-DeS" id="BPD-Az-ea0"/>
+                        <outlet property="label4" destination="jsN-Cs-E09" id="99c-zT-hhw"/>
+                        <outlet property="label5" destination="s7x-gE-lvO" id="rAX-rb-8DH"/>
+                        <outlet property="label6" destination="p3V-rK-IOR" id="MPw-ko-uNc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="90.769230769230759" y="3.5545023696682461"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Audi" width="1920" height="1080"/>
+        <image name="background" width="1920" height="1080"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

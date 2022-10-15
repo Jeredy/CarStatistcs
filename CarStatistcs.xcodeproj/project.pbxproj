@@ -17,6 +17,9 @@
 		CE90906F28F1CB370036DAC9 /* CarStatistcsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90906E28F1CB370036DAC9 /* CarStatistcsTests.m */; };
 		CE90907928F1CB370036DAC9 /* CarStatistcsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90907828F1CB370036DAC9 /* CarStatistcsUITests.m */; };
 		CE90907B28F1CB370036DAC9 /* CarStatistcsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90907A28F1CB370036DAC9 /* CarStatistcsUITestsLaunchTests.m */; };
+		CE90908828F1D1170036DAC9 /* RandomCars.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE90908728F1D1170036DAC9 /* RandomCars.plist */; };
+		CE90908928F1D1170036DAC9 /* RandomCars.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE90908728F1D1170036DAC9 /* RandomCars.plist */; };
+		CE90908A28F1D1170036DAC9 /* RandomCars.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE90908728F1D1170036DAC9 /* RandomCars.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,7 @@
 		CE90907428F1CB370036DAC9 /* CarStatistcsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarStatistcsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE90907828F1CB370036DAC9 /* CarStatistcsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarStatistcsUITests.m; sourceTree = "<group>"; };
 		CE90907A28F1CB370036DAC9 /* CarStatistcsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarStatistcsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CE90908728F1D1170036DAC9 /* RandomCars.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RandomCars.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 				CE90906028F1CB360036DAC9 /* LaunchScreen.storyboard */,
 				CE90906328F1CB360036DAC9 /* Info.plist */,
 				CE90906428F1CB360036DAC9 /* main.m */,
+				CE90908728F1D1170036DAC9 /* RandomCars.plist */,
 			);
 			path = CarStatistcs;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE90908828F1D1170036DAC9 /* RandomCars.plist in Resources */,
 				CE90906228F1CB360036DAC9 /* LaunchScreen.storyboard in Resources */,
 				CE90905F28F1CB360036DAC9 /* Assets.xcassets in Resources */,
 				CE90905D28F1CB320036DAC9 /* Main.storyboard in Resources */,
@@ -249,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE90908928F1D1170036DAC9 /* RandomCars.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE90908A28F1D1170036DAC9 /* RandomCars.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
